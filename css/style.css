@@ -1,0 +1,130 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: 'Open Sans',serif;
+}
+
+html,body{
+	height: 100%;
+}
+
+.container{
+	max-width: 1280px;
+	margin: 0 auto;
+	padding: 0 5%;
+	background-color: #5398BE;
+}
+
+.container img{
+	width: 80px;
+}
+
+.clear{
+	clear: both;
+}
+
+.left{
+	float: left;
+}
+
+.right{
+	float: right;
+}
+
+/*HEADER*/
+
+header .container{
+	padding: 20px 10%;
+}
+
+
+header .logo img:hover{
+	padding: 0 5px;
+	color: rgb(120,120,120);
+	cursor: pointer;
+	transform: scale(1.09,1.09);
+	transition: 0.5s;
+	border-radius: 4px;
+}
+
+header .menu ul{
+	list-style-type: none;
+	padding-top: 22px;
+}
+
+header .menu ul li{
+	display: inline-block;
+	cursor: pointer;
+	font-size: 16px;
+	padding: 4px;
+	border-radius: 4px;
+}
+
+
+
+header .menu ul li:not(.not):hover a{
+	color: white;
+}
+
+.divisoria{
+position: absolute;
+right: 193px;
+top:55px;
+width: 30px;
+border: 1px solid #000000;
+transform: rotate(90deg);
+}
+
+
+header .menu ul li i{
+	border: 0.5px solid rgb(120,120,120);
+	width: 27px;
+	padding: 6px;
+	border-radius: 8px;
+}
+
+header .menu #btnCadastrar {
+	background: #2D3047;
+	margin-left: 12px;
+}
+
+header .menu ul li:hover{
+	background-color: #3576b8;
+	color: #1a4a7a;
+	border: 0.5px solid #1a4a7a;
+	-webkit-box-shadow: 0px 1px 2px 0px rgba(1,50,149,1);
+	-moz-box-shadow: 0px 1px 2px 0px rgba(1,50,149,1);
+	box-shadow: 0px 1px 2px 0px rgba(1,50,149,1);
+}
+
+header .menu ul li a{
+	text-decoration: none;
+	color: rgb(255, 255, 255);
+}
+
+/*CONTENT*/
+
+section.content{
+	padding: 0 12%;
+	height: 300px;
+}
+
+div.post{
+	margin-top: 45px;
+	width: 10px;
+}
+
+.legendaPost{
+position: absolute;
+right:150px;
+bottom: 20px;
+color: #fff;
+}
+
+
+
+
